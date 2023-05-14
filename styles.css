@@ -55,7 +55,7 @@ p {
   flex-direction: column;
   width: 50%;
   padding: clamp(10px, 2vw, 2.5rem);
-  background-color: aliceblue;
+  background-color: hsl(0, 0%, 100%);
 }
 
 .content-container .title {
