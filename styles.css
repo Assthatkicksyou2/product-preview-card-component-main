@@ -20,9 +20,6 @@ body {
   background-color: hsl(30, 38%, 92%);
   color: hsl(228, 12%, 48%);
 }
-p {
-  font-size: 14px;
-}
 
 .card-container {
   display: flex;
@@ -80,6 +77,16 @@ p {
   gap: 1em;
 }
 
+.discount-container h1 {
+  font-family: "Fraunces", serif;
+  color: dark hsl(158, 36%, 37%);
+}
+.discount-container h3 {
+  text-decoration: line-through;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
 .btn-container button {
   background-color: hsl(158, 36%, 37%);
 }
