@@ -33,7 +33,7 @@ body {
   justify-content: center;
   align-items: center;
   width: clamp(600px, 50vw, 50vw);
-  height: clamp(35rem, 50vh, 50vh);
+  height: clamp(28rem, 50vh, 50vh);
   min-height: 60%;
 }
 .image-container {
@@ -79,13 +79,17 @@ p {
 
 .discount-container h1 {
   font-family: "Fraunces", serif;
+  margin-bottom: 0;
+  margin: 0;
   color: dark hsl(158, 36%, 37%);
 }
 .discount-container h3 {
   text-decoration: line-through;
   height: 100%;
   display: flex;
-  align-items: center;
+  font-size: 14px;
+  align-items: top;
+  justify-content: center;
 }
 .btn-container button {
   font-display: flex;
@@ -94,6 +98,7 @@ p {
   color: white;
   width: 100%;
   padding: 1em;
+  height: clamp(0.5rem, 2vh, 2rem);
 }
 /*
 
