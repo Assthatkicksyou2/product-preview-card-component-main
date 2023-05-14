@@ -33,7 +33,7 @@ body {
   justify-content: center;
   align-items: center;
   width: clamp(600px, 50vw, 50vw);
-  height: clamp(25rem, 50vh, 50vh);
+  height: clamp(35rem, 50vh, 50vh);
   min-height: 60%;
 }
 .image-container {
@@ -88,7 +88,12 @@ p {
   align-items: center;
 }
 .btn-container button {
+  font-display: flex;
+  align-items: center;
   background-color: hsl(158, 36%, 37%);
+  color: white;
+  width: 100%;
+  padding: 1em;
 }
 /*
 
