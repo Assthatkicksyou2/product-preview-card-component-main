@@ -92,7 +92,7 @@ p {
   padding: 15px;
 }
 .btn-container {
-  font-display: flex;
+  display: flex;
 }
 .btn-container button {
   margin: 0 auto;
